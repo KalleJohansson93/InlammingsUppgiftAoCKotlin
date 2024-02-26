@@ -95,6 +95,7 @@ private fun inspirationFrånGithub() {
     //https://github.com/valiant-code/AdventOfCode/blob/master/2021/src/main/kotlin/Day2.kt
     //Verkar klocka tiden det tar att köra programmet.
     //Mappar först datat till en Map med Key=String med instruktioner och Value=en Int som används vid utträkningen
+    //Känns lite svår att läsa och onödigt komplicerad
 
     TimeUtil.startClock(1, ::partOne)
     TimeUtil.startClock(2, ::partTwo)
@@ -211,6 +212,7 @@ object InputUtil {
         }
     }
 }
+
 
 
 //https://github.com/vini2003/Advent-of-Code-2021/blob/dev/src/main/kotlin/dev/vini2003/adventofcode/solution/Day2Solution.kt
