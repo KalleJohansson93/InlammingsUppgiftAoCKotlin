@@ -82,5 +82,5 @@ fun main() {
     //listan fylls på successivt när vi rekurserar
 
     var list: MutableList<String> = mutableListOf()
-    println(Tomteland().getUnderlings("Tomten", list))
+    println(Tomteland().getUnderlings("Glader", list))
 }
