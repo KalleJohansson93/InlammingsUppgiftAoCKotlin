@@ -68,7 +68,6 @@ Number 1:    Number 4:    Number 7:    Number 8:
 .    f       .    f       .    f       e    f
 .    f       .    f       .    f       e    f
  ....         ....         ....         gggg
-Explanation:
 */
 
 
