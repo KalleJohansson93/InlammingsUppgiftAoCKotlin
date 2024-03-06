@@ -81,7 +81,7 @@ fun förbättradRäknaEnergikonsumptionB(input: List<String>): Int {
 
  fun List<List<Int>>.mestFörekommande() = first().indices//first kommer åt den yttre listan och indices kommer åt den inre listan
     .map { idx -> count { it[idx] == 1 } } ///Räknar antal ettor vid varje idx
-    .map { if (it >= size - it) 1 else 0 } //Kollar om count(it) från föregående steg är större eller lika med antal elemnen minus (it)
+    .map { if (it >= size - it) 1 else 0 } //Kollar om count(it) från föregående steg är större eller lika med antal element minus (it)
 
 fun binärTillDecimal(binär: String): Int {
     var decimal = 0
